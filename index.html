@@ -9,33 +9,21 @@
 </head>
 <body>
 
-  <!-- ╔══════════════════════════════╗
-       ║          TOP BAR            ║
-       ╚══════════════════════════════╝ -->
+  <!-- TOP BAR -->
   <div class="top-bar">
     <div class="container">
       <div class="top-bar-left">
-        <span class="top-bar-item">
-          <span>🕐</span> Mon–Fri 7am–7pm &nbsp;|&nbsp; Sat–Sun 8am–5pm
-        </span>
-        <span class="top-bar-item">
-          <span>📍</span> Serving the Greater Metro Area
-        </span>
+        <span class="top-bar-item"><span>🕐</span> Mon–Fri 7am–7pm &nbsp;|&nbsp; Sat–Sun 8am–5pm</span>
+        <span class="top-bar-item"><span>📍</span> Serving the Greater Metro Area</span>
       </div>
       <div class="top-bar-right">
-        <span class="top-bar-item">
-          <span>🛡️</span> Licensed &amp; Insured
-        </span>
-        <a href="tel:7205550182" class="top-bar-item">
-          <span>📞</span> (720) 555-0182
-        </a>
+        <span class="top-bar-item"><span>🛡️</span> Licensed &amp; Insured</span>
+        <a href="tel:7205550182" class="top-bar-item"><span>📞</span> (720) 555-0182</a>
       </div>
     </div>
   </div>
 
-  <!-- ╔══════════════════════════════╗
-       ║          NAVBAR             ║
-       ╚══════════════════════════════╝ -->
+  <!-- NAVBAR -->
   <nav class="navbar" role="navigation" aria-label="Main navigation">
     <div class="container">
 
@@ -57,7 +45,11 @@
         <li><a href="#schedule">Schedule</a></li>
       </ul>
 
-      <a href="#schedule" class="btn-primary nav-cta">Schedule Service ↗</a>
+      <button
+        onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
+        type="button"
+        class="btn-primary nav-cta"
+      >Schedule Service ↗</button>
 
       <button class="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -66,7 +58,7 @@
     </div>
   </nav>
 
-  <!-- Mobile nav drawer -->
+  <!-- MOBILE NAV DRAWER -->
   <div class="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu">
     <button class="mobile-nav-close" aria-label="Close menu">✕</button>
     <nav class="mobile-nav-links">
@@ -76,19 +68,21 @@
       <a href="#service-area">Service Area</a>
       <a href="#schedule">Schedule</a>
     </nav>
-    <a href="#schedule" class="btn-primary" style="align-self: flex-start;">Schedule Service ↗</a>
-    <a href="tel:7205550182" style="color: rgba(255,255,255,0.6); font-size:.9rem; font-family:var(--font-display); letter-spacing:.08em;">📞 (720) 555-0182</a>
+    <button
+      onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
+      type="button"
+      class="btn-primary"
+      style="align-self: flex-start;"
+    >Schedule Service ↗</button>
+    <a href="tel:7205550182" style="color:rgba(255,255,255,0.6);font-size:.9rem;font-family:var(--font-display);letter-spacing:.08em;">📞 (720) 555-0182</a>
   </div>
 
   <main>
 
-    <!-- ╔══════════════════════════════╗
-         ║           HERO             ║
-         ╚══════════════════════════════╝ -->
+    <!-- HERO -->
     <section id="home" class="hero">
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="hero-grid-pattern" aria-hidden="true"></div>
-
       <div class="container">
         <div class="hero-content">
 
@@ -97,39 +91,30 @@
             24/7 Emergency Service Available
           </div>
 
-          <h1>
-            Your Comfort,<br>
-            <em>Sealed &amp; Delivered.</em>
-          </h1>
+          <h1>Your Comfort,<br><em>Sealed &amp; Delivered.</em></h1>
 
-          <p>
-            From furnace failures to burst pipes, Blue Seal HVAC &amp; Plumbing has
-            the certified technicians and the tools to get your home back to normal —
-            fast, reliably, and at a fair price.
-          </p>
+          <p>From furnace failures to burst pipes, Blue Seal HVAC &amp; Plumbing has the certified technicians and the tools to get your home back to normal — fast, reliably, and at a fair price.</p>
 
           <div class="hero-actions">
-            <a href="#schedule" class="btn-primary">Schedule a Visit ↗</a>
+            <button
+              onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
+              type="button"
+              class="btn-primary"
+            >Schedule a Visit ↗</button>
             <a href="tel:7205550182" class="btn-outline">📞 Call Now</a>
           </div>
 
           <div class="hero-stats" aria-label="Company statistics">
             <div class="hero-stat">
-              <div class="hero-stat-num">
-                <span data-count="2400" data-suffix="+">0+</span>
-              </div>
+              <div class="hero-stat-num"><span data-count="2400" data-suffix="+">0+</span></div>
               <div class="hero-stat-label">Jobs Completed</div>
             </div>
             <div class="hero-stat">
-              <div class="hero-stat-num">
-                <span data-count="18" data-suffix=" yrs">0 yrs</span>
-              </div>
+              <div class="hero-stat-num"><span data-count="18" data-suffix=" yrs">0 yrs</span></div>
               <div class="hero-stat-label">In Business</div>
             </div>
             <div class="hero-stat">
-              <div class="hero-stat-num">
-                <span data-count="4" data-suffix=".9★">0★</span>
-              </div>
+              <div class="hero-stat-num"><span data-count="4" data-suffix=".9★">0★</span></div>
               <div class="hero-stat-label">Avg. Rating</div>
             </div>
           </div>
@@ -138,27 +123,17 @@
       </div>
     </section>
 
-    <!-- Trust Bar -->
+    <!-- TRUST BAR -->
     <div class="trust-bar" aria-label="Service highlights">
       <div class="trust-bar-inner">
-        <div class="trust-item">
-          <span class="trust-icon">⚡</span> Same-Day Service Available
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">🛡️</span> 100% Satisfaction Guarantee
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">🔧</span> Upfront Flat-Rate Pricing
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">✅</span> Licensed, Bonded &amp; Insured
-        </div>
+        <div class="trust-item"><span class="trust-icon">⚡</span> Same-Day Service Available</div>
+        <div class="trust-item"><span class="trust-icon">🛡️</span> 100% Satisfaction Guarantee</div>
+        <div class="trust-item"><span class="trust-icon">🔧</span> Upfront Flat-Rate Pricing</div>
+        <div class="trust-item"><span class="trust-icon">✅</span> Licensed, Bonded &amp; Insured</div>
       </div>
     </div>
 
-    <!-- ╔══════════════════════════════╗
-         ║          SERVICES          ║
-         ╚══════════════════════════════╝ -->
+    <!-- SERVICES -->
     <section id="services" class="services">
       <div class="container">
 
@@ -226,14 +201,11 @@
       </div>
     </section>
 
-    <!-- ╔══════════════════════════════╗
-         ║          WHY US            ║
-         ╚══════════════════════════════╝ -->
+    <!-- WHY US -->
     <section id="why-us" class="why-us">
       <div class="container">
         <div class="why-us-layout">
 
-          <!-- Visual stack -->
           <div class="why-us-visual fade-up" aria-hidden="true">
             <div class="why-card-stack">
               <div class="why-card-main">
@@ -257,15 +229,12 @@
             </div>
           </div>
 
-          <!-- Features list -->
           <div class="why-us-content">
             <div class="fade-up">
               <p class="section-label">Why Blue Seal</p>
               <h2>Built on Trust, Backed by Results</h2>
             </div>
-
             <div class="features-list" data-stagger>
-
               <div class="feature-item">
                 <div class="feature-icon" aria-hidden="true">⏱️</div>
                 <div class="feature-text">
@@ -273,7 +242,6 @@
                   <p>We respect your schedule. Get a 2-hour arrival window and a call when we're on the way — no all-day waiting.</p>
                 </div>
               </div>
-
               <div class="feature-item">
                 <div class="feature-icon" aria-hidden="true">💬</div>
                 <div class="feature-text">
@@ -281,7 +249,6 @@
                   <p>You'll always know what a job costs before we start. We quote flat-rate prices and stand behind every number.</p>
                 </div>
               </div>
-
               <div class="feature-item">
                 <div class="feature-icon" aria-hidden="true">🔑</div>
                 <div class="feature-text">
@@ -289,7 +256,6 @@
                   <p>Every Blue Seal tech passes a full background check and drug screening before setting foot in your home.</p>
                 </div>
               </div>
-
               <div class="feature-item">
                 <div class="feature-icon" aria-hidden="true">🏆</div>
                 <div class="feature-text">
@@ -297,16 +263,14 @@
                   <p>All repair work is backed by our 1-year labor warranty. If it breaks again, we come back at no charge.</p>
                 </div>
               </div>
-
             </div>
           </div>
+
         </div>
       </div>
     </section>
 
-    <!-- ╔══════════════════════════════╗
-         ║        SERVICE AREA        ║
-         ╚══════════════════════════════╝ -->
+    <!-- SERVICE AREA -->
     <section id="service-area" class="service-area">
       <div class="container">
         <div class="service-area-layout">
@@ -315,11 +279,8 @@
             <div class="fade-up">
               <p class="section-label">Where We Work</p>
               <h2>Serving Your Neighborhood</h2>
-              <p style="margin-top:14px; margin-bottom:28px;">
-                We cover a wide radius around the metro area so help is never far away. Check if your city is in our service zone.
-              </p>
+              <p style="margin-top:14px;margin-bottom:28px;">We cover a wide radius around the metro area so help is never far away. Check if your city is in our service zone.</p>
             </div>
-
             <div class="area-map-placeholder" aria-label="Service area map placeholder">
               <div class="map-pin-center">
                 <span class="map-pin-icon" aria-hidden="true">📍</span>
@@ -331,10 +292,9 @@
           <div>
             <div class="fade-up" style="margin-bottom:24px;">
               <p class="section-label">Cities We Serve</p>
-              <h3 style="font-size:1.6rem; font-weight:800;">Is Your City on the List?</h3>
-              <p style="margin-top:8px; font-size:.92rem;">Call or schedule online — we'll confirm coverage for your exact address.</p>
+              <h3 style="font-size:1.6rem;font-weight:800;">Is Your City on the List?</h3>
+              <p style="margin-top:8px;font-size:.92rem;">Call or schedule online — we'll confirm coverage for your exact address.</p>
             </div>
-
             <div class="area-cities" data-stagger aria-label="List of service area cities">
               <div class="area-city">Denver</div>
               <div class="area-city">Arvada</div>
@@ -351,9 +311,8 @@
               <div class="area-city">Erie</div>
               <div class="area-city">Fort Lupton</div>
             </div>
-
-            <p style="margin-top:20px; font-size:.82rem; color:var(--slate);">
-              Don't see your city? <a href="tel:7205550182" style="color:var(--blue); font-weight:600;">Call us</a> — we may still cover your area.
+            <p style="margin-top:20px;font-size:.82rem;color:var(--slate);">
+              Don't see your city? <a href="tel:7205550182" style="color:var(--blue);font-weight:600;">Call us</a> — we may still cover your area.
             </p>
           </div>
 
@@ -361,9 +320,7 @@
       </div>
     </section>
 
-    <!-- ╔══════════════════════════════╗
-         ║         SCHEDULER          ║
-         ╚══════════════════════════════╝ -->
+    <!-- SCHEDULE -->
     <section id="schedule" class="scheduler-section">
       <div class="container">
 
@@ -375,7 +332,7 @@
 
         <div class="scheduler-layout">
 
-          <!-- Sidebar info -->
+          <!-- Sidebar -->
           <div class="scheduler-sidebar fade-up">
 
             <div class="scheduler-info-card">
@@ -408,68 +365,44 @@
             <div class="scheduler-info-card">
               <h4>Prefer to Call?</h4>
               <p>Our office team is standing by to book your appointment over the phone.</p>
-              <a href="tel:7205550182" class="btn-primary" style="margin-top:16px; font-size:.9rem; padding:11px 22px;">
+              <a href="tel:7205550182" class="btn-primary" style="margin-top:16px;font-size:.9rem;padding:11px 22px;">
                 📞 (720) 555-0182
               </a>
             </div>
 
           </div>
 
-          <!-- Scheduler embed -->
-          <div class="scheduler-embed-wrapper fade-up">
-
-            <!--
-              ════════════════════════════════════════════
-              PASTE YOUR SERVICETITAN WEB SCHEDULER BELOW
-              ════════════════════════════════════════════
-              1. Delete the <div class="scheduler-placeholder"> block below.
-              2. Paste your ServiceTitan <iframe> embed code here.
-              3. Remove the "display:none" style from #st-scheduler-iframe
-                 OR just drop in whatever embed ST gives you directly.
-              ════════════════════════════════════════════
-            -->
-
-            <div class="scheduler-placeholder" role="region" aria-label="Scheduler embed area">
-              <span class="scheduler-placeholder-icon" aria-hidden="true">🗓️</span>
-              <h3>Online Scheduler</h3>
-              <p>Paste your ServiceTitan web scheduler embed code here to activate online booking.</p>
-              <code>
-                &lt;!-- Replace this block with your ST embed --&gt;<br>
-                &lt;iframe<br>
-                &nbsp;&nbsp;src="YOUR_ST_SCHEDULER_URL"<br>
-                &nbsp;&nbsp;width="100%"<br>
-                &nbsp;&nbsp;height="700"<br>
-                &nbsp;&nbsp;frameborder="0"<br>
-                &gt;&lt;/iframe&gt;
-              </code>
+          <!-- ServiceTitan Scheduler CTA Panel -->
+          <div class="scheduler-cta-panel fade-up" role="region" aria-label="Online booking">
+            <div class="scheduler-cta-inner">
+              <div class="scheduler-cta-icon" aria-hidden="true">🗓️</div>
+              <h3>Book Your Visit Online</h3>
+              <p>Use our real-time scheduling tool to pick the date and time that works best for you. It only takes a couple of minutes.</p>
+              <button
+                onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
+                type="button"
+                class="btn-primary scheduler-cta-btn"
+                aria-label="Open online booking scheduler"
+              >📅 &nbsp;Book Now — Pick Your Time</button>
+              <ul class="scheduler-cta-perks" aria-label="Booking perks">
+                <li>✅ Instant confirmation</li>
+                <li>✅ 2-hour arrival windows</li>
+                <li>✅ No credit card required to book</li>
+              </ul>
             </div>
-
-            <!-- ServiceTitan iframe — uncomment and fill in src when ready -->
-            <!-- <iframe
-              id="st-scheduler-iframe"
-              src="PASTE_YOUR_SERVICETITAN_SCHEDULER_URL_HERE"
-              title="Schedule a service visit"
-              width="100%"
-              height="700"
-              frameborder="0"
-              allow="geolocation"
-            ></iframe> -->
-
           </div>
+
         </div>
       </div>
     </section>
 
   </main>
 
-  <!-- ╔══════════════════════════════╗
-       ║           FOOTER           ║
-       ╚══════════════════════════════╝ -->
+  <!-- FOOTER -->
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer-grid">
 
-        <!-- Brand -->
         <div class="footer-brand">
           <div class="footer-logo-area">
             <div class="footer-logo-seal" aria-hidden="true">
@@ -483,7 +416,6 @@
           <p>Locally owned and operated since 2006. Serving homeowners and businesses with integrity and craftsmanship you can trust.</p>
         </div>
 
-        <!-- Services -->
         <div class="footer-col">
           <h5>Services</h5>
           <nav class="footer-links" aria-label="Services navigation">
@@ -496,7 +428,6 @@
           </nav>
         </div>
 
-        <!-- Company -->
         <div class="footer-col">
           <h5>Company</h5>
           <nav class="footer-links" aria-label="Company navigation">
@@ -509,23 +440,18 @@
           </nav>
         </div>
 
-        <!-- Contact -->
         <div class="footer-col">
           <h5>Contact</h5>
           <address class="footer-contact" style="font-style:normal;">
             <div class="footer-contact-item">
               <span class="footer-contact-icon">📞</span>
-              <a href="tel:7205550182" style="color:rgba(255,255,255,.6); transition:color .22s ease;"
-                 onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.6)'">
-                (720) 555-0182
-              </a>
+              <a href="tel:7205550182" style="color:rgba(255,255,255,.6);transition:color .22s ease;"
+                 onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.6)'">(720) 555-0182</a>
             </div>
             <div class="footer-contact-item">
               <span class="footer-contact-icon">✉️</span>
               <a href="mailto:service@bluesealhvac.com" style="color:rgba(255,255,255,.6);"
-                 onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.6)'">
-                service@bluesealhvac.com
-              </a>
+                 onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.6)'">service@bluesealhvac.com</a>
             </div>
             <div class="footer-contact-item">
               <span class="footer-contact-icon">📍</span>
@@ -551,6 +477,16 @@
     </div>
   </footer>
 
+  <!-- ServiceTitan Web Scheduler -->
+  <script
+    data-api-key="l8skdyzy157gs3cv4tv7aw1h"
+    data-schedulerid="sched_uynx99wph27y6qig71hmyo91"
+    defer
+    id="se-widget-embed"
+    src="https://embed.scheduler.servicetitan.com/scheduler-v1.js"
+  ></script>
+
   <script src="main.js"></script>
 </body>
 </html>
+
