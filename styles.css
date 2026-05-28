@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); color: var(--text-dark); 
 .scheduler-cta-icon { font-size: 3.2rem; margin-bottom: 20px; display: block; }
 .scheduler-cta-inner h3 { font-size: 2rem; font-weight: 800; color: var(--navy); margin-bottom: 12px; }
 .scheduler-cta-inner p { font-size: 0.95rem; color: var(--text-body); line-height: 1.7; margin-bottom: 32px; }
-.scheduler-cta-btn { font-size: 1.15rem; padding: 16px 40px; width: 100%; justify-content: center; margin-bottom: 28px; }
+.scheduler-cta-btn { font-size: 1.15rem; padding: 16px 40px; width: 100%; justify-content: center; margin-bottom: 28px; pointer-events: auto; position: relative; z-index: 1; }
 .scheduler-cta-perks { display: inline-flex; flex-direction: column; gap: 10px; text-align: left; }
 .scheduler-cta-perks li { font-size: 0.88rem; color: var(--text-body); }
 
