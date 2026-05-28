@@ -6,6 +6,14 @@
   <meta name="description" content="Blue Seal HVAC & Plumbing — Trusted heating, cooling, and plumbing services. Available 24/7 for emergencies. Serving the greater metro area." />
   <title>Blue Seal HVAC & Plumbing | Comfort You Can Count On</title>
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- ServiceTitan Web Scheduler — loaded in <head> without defer so _scheduler is ready before any click -->
+  <script
+    data-api-key="l8skdyzy157gs3cv4tv7aw1h"
+    data-schedulerid="sched_uynx99wph27y6qig71hmyo91"
+    id="se-widget-embed"
+    src="https://embed.scheduler.servicetitan.com/scheduler-v1.js"
+  ></script>
 </head>
 <body>
 
@@ -46,9 +54,9 @@
       </ul>
 
       <button
-        onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
         type="button"
-        class="btn-primary nav-cta"
+        class="btn-primary nav-cta se-booking-show"
+        data-schedulerid="sched_uynx99wph27y6qig71hmyo91"
       >Schedule Service ↗</button>
 
       <button class="hamburger" aria-label="Open menu" aria-expanded="false">
@@ -69,9 +77,9 @@
       <a href="#schedule">Schedule</a>
     </nav>
     <button
-      onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
       type="button"
-      class="btn-primary"
+      class="btn-primary se-booking-show"
+      data-schedulerid="sched_uynx99wph27y6qig71hmyo91"
       style="align-self: flex-start;"
     >Schedule Service ↗</button>
     <a href="tel:7205550182" style="color:rgba(255,255,255,0.6);font-size:.9rem;font-family:var(--font-display);letter-spacing:.08em;">📞 (720) 555-0182</a>
@@ -97,9 +105,9 @@
 
           <div class="hero-actions">
             <button
-              onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
               type="button"
-              class="btn-primary"
+              class="btn-primary se-booking-show"
+              data-schedulerid="sched_uynx99wph27y6qig71hmyo91"
             >Schedule a Visit ↗</button>
             <a href="tel:7205550182" class="btn-outline">📞 Call Now</a>
           </div>
@@ -379,9 +387,9 @@
               <h3>Book Your Visit Online</h3>
               <p>Use our real-time scheduling tool to pick the date and time that works best for you. It only takes a couple of minutes.</p>
               <button
-                onclick="_scheduler.show({ schedulerId: 'sched_uynx99wph27y6qig71hmyo91' })"
                 type="button"
-                class="btn-primary scheduler-cta-btn"
+                class="btn-primary scheduler-cta-btn se-booking-show"
+                data-schedulerid="sched_uynx99wph27y6qig71hmyo91"
                 aria-label="Open online booking scheduler"
               >📅 &nbsp;Book Now — Pick Your Time</button>
               <ul class="scheduler-cta-perks" aria-label="Booking perks">
@@ -476,15 +484,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- ServiceTitan Web Scheduler -->
-  <script
-    data-api-key="l8skdyzy157gs3cv4tv7aw1h"
-    data-schedulerid="sched_uynx99wph27y6qig71hmyo91"
-    defer
-    id="se-widget-embed"
-    src="https://embed.scheduler.servicetitan.com/scheduler-v1.js"
-  ></script>
 
   <script src="main.js"></script>
 </body>
